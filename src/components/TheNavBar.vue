@@ -16,7 +16,14 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav flex-grow-1 justify-content-between">
                         
-                        <nav-link v-for="(link, index) in links" @navLinkClick="changeColor" :key="index" :link="link"></nav-link>
+                    <nav-link v-for="(link, index) in links" 
+                        @navLinkClick="changeColor" 
+                        :key="index" 
+                        :link="link">
+                    </nav-link>
+                    <li class="nav-link">
+                        
+                    </li>
                     
                     </ul>
                     <!-- <ul>

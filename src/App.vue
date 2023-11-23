@@ -17,8 +17,14 @@ export default {
   name: 'App',
   components: {
     TheLogo,
-    TheNavBar
-  }
+    TheNavBar,
+  },
+  // mounted:{
+
+  // },
+  // updated:{
+
+  // }
 }
 </script>
 <style>
